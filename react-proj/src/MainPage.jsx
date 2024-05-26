@@ -39,7 +39,7 @@ const Container = styled.div`
 
 
 
-const Login = () => {
+const MainPage = () => {
   const [showLoginRegisterForm, setShowLoginRegisterForm] = useState(false);
   const [
     doNotShowLoginFormAsHeHasClickedLogin,
@@ -95,4 +95,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default MainPage;
